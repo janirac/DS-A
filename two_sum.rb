@@ -4,16 +4,22 @@
 
 # You can return the answer in any order.
 
-def two_sum(nums, target)
-    indices = []
-    nums.each_with_index do |num1, index1|
-        nums.each_with_index do |num2, index2|
-            if index2 > index1 && num1 + num2 == target 
-                indices << index1
-                indices << index2
-            end 
-        end 
-    end 
 
-    indices
-end
+# first submission with ruby
+
+# def two_sum(nums, target)
+#     indices = []
+#     nums.each_with_index do |num1, index1|
+#         nums.each_with_index do |num2, index2|
+#             if index2 > index1 && num1 + num2 == target 
+#                 indices << index1
+#                 indices << index2
+#             end 
+#         end 
+#     end 
+
+#     indices
+# end
+
+# second submission with js
+
