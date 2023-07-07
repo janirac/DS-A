@@ -23,3 +23,9 @@
 # print("Sum: " + str(float(first_number) + float(second_number)))
 
 # print(age)
+
+course = "Python for Beginners"
+new_course = course.isdigit()
+print('Python' in course) #returns a boolean if the given str in found where as using the find will return the index
+print(new_course)
+print(course)
