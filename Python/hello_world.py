@@ -38,15 +38,53 @@
 
 # print( not price > 10)
 
-temperature = 5
+# temperature = 5
 
-if temperature > 30:
-    print("It's a hot day")
-    print("Drink plenty of water")
-elif temperature > 20:
-    print("It's a nice day")
-elif temperature > 10:
-    print("It's a bit cold")
-else: 
-    print("It's cold")
-print("Done")
+# if temperature > 30:
+#     print("It's a hot day")
+#     print("Drink plenty of water")
+# elif temperature > 20:
+#     print("It's a nice day")
+# elif temperature > 10:
+#     print("It's a bit cold")
+# else: 
+#     print("It's cold")
+# print("Done")
+
+# weight = float(input("Weight: "))
+# unit = input("(K)g or (L)bs: ").lower()
+# if unit == "l":
+#     print("Weight in kg: " + str(weight * 0.45))
+# else:
+#     print("Weight in kg: " + str(weight))
+    
+
+# i = 1
+
+# while i < 10:
+#     print(i * '*')
+#     i+=1
+
+# names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+# names[0] = "Jon"
+# print(names[0:3])
+# print(names)
+
+# numbers = [1,2,3,4,5]
+
+# print(numbers)
+
+# for item in numbers:
+#     print(item)
+    
+# i = 0
+# while i < len(numbers):
+#     print(numbers[i])
+#     i = i + 1
+
+# numbers = range(5, 10, 2)
+# for number in numbers:
+#     print(number)
+
+# numbers = (1, 2, 3)
+# print(numbers.count(3))
