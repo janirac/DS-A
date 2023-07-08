@@ -130,3 +130,19 @@
 # ]
 
 # print(map_by_name(pets))
+
+def map_by_key(arr, key):
+    hashes = []
+    
+    for item in arr:
+        hashes.append(item[key])
+        
+    return hashes
+
+locations = [
+  {"city": "New York City", "state": "New York", "coast": "East"},
+  {"city": "San Francisco", "state": "California", "coast": "West"},
+  {"city": "Portland", "state": "Oregon", "coast": "West"}
+]
+
+print(map_by_key(locations, "state"))
