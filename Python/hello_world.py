@@ -131,18 +131,50 @@
 
 # print(map_by_name(pets))
 
-def map_by_key(arr, key):
-    hashes = []
+# def map_by_key(arr, key):
+#     hashes = []
     
-    for item in arr:
-        hashes.append(item[key])
+#     for item in arr:
+#         hashes.append(item[key])
         
-    return hashes
+#     return hashes
 
-locations = [
-  {"city": "New York City", "state": "New York", "coast": "East"},
-  {"city": "San Francisco", "state": "California", "coast": "West"},
-  {"city": "Portland", "state": "Oregon", "coast": "West"}
-]
+# locations = [
+#   {"city": "New York City", "state": "New York", "coast": "East"},
+#   {"city": "San Francisco", "state": "California", "coast": "West"},
+#   {"city": "Portland", "state": "Oregon", "coast": "West"}
+# ]
 
-print(map_by_key(locations, "state"))
+# print(map_by_key(locations, "state"))
+
+# def yell_sentence(sent):
+#     sent_array = sent.split(" ")
+#     count = 0
+    
+#     for sentence in sent_array:
+#         sent_array[count] = sentence.upper() + "!"
+#         count += 1
+        
+#     return " ".join(sent_array)
+    
+# print(yell_sentence("I have a bad feeling about this")) #=> "I! HAVE! A! BAD! FEELING! ABOUT! THIS!"
+
+# def whisper_words(words):
+#     new_words = []
+    
+#     for word in words:
+#         new_words.append(word.lower() + "...") 
+        
+#     return new_words
+
+# print(whisper_words(["KEEP", "The", "NOISE", "down"]))
+
+# def o_words(sentence):
+#     arr = []
+#     for word in sentence.split(" "):
+#         if "o" in word:
+#             arr.append(word)
+            
+#     return arr
+
+# print(o_words("How did you do that?"))
