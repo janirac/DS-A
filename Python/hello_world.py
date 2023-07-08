@@ -88,3 +88,45 @@
 
 # numbers = (1, 2, 3)
 # print(numbers.count(3))
+
+# find the longest common prefix
+# iterate over the strs array
+# create a variable that keeps track of the current prefix
+# Check each element to see if it has that prefix keep going until the first length is finished
+# if its not there take off the end of the current prefix
+
+
+# def longest_common_prefix(strs): 
+#     if not strs:                  
+#         return "NONE"
+
+#     prefix = strs[0]
+#     for string in strs:
+#         while not string.startswith(prefix):
+#             prefix = prefix[:-1]
+#             if not prefix:
+#                 return ""
+            
+#     return prefix
+
+
+# strs = []
+# print(longest_common_prefix(strs))
+
+# def map_by_name(arr):
+#     hashes = []
+    
+#     for hash in arr:
+#         hashes.append(hash["name"])
+        
+#     return hashes
+
+# pets = [
+#   {"type": "dog", "name": "Rolo"},
+#   {"type": "cat", "name": "Sunny"},
+#   {"type": "rat", "name": "Saki"},
+#   {"type": "dog", "name": "Finn"},
+#   {"type": "cat", "name": "Buffy"}
+# ]
+
+# print(map_by_name(pets))
