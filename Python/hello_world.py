@@ -178,3 +178,84 @@
 #     return arr
 
 # print(o_words("How did you do that?"))
+
+# def last_index(string, char):
+#     for i in range(len(string)-1, -1, -1):
+#         if string[i] == char:
+#             return i
+        
+# print(last_index("mississipi", "i"))
+
+# def most_vowels(sentence):
+#     vowels = "aeiou"
+#     most = 0
+#     words = ""
+    
+#     for word in sentence.split(" "):
+#         current_count = 0
+#         for char in word:
+#             if char in vowels:
+#                 current_count += 1
+#         if current_count > most:
+#             most = current_count
+#             words = word
+            
+            
+#     return words
+
+# print(most_vowels("what a wonderful life"))
+
+
+    
+# print(prime(2))
+# print(prime(5))
+# print(prime(11))
+# print(prime(4))
+# print(prime(9))
+# print(prime(-5))
+
+# def pick_primes(array):
+#     primes = []
+    
+#     for num in array:
+#         if prime(num):
+#             primes.append(num)
+            
+#     return primes
+
+
+# print(pick_primes([101, 20, 103, 2017]))
+
+# def prime_factors(num):
+#     primes = []
+    
+#     for i in range(1, num + 1):
+#         if num % i == 0 and prime(i):
+#             primes.append(i)
+            
+#     return primes
+
+# def prime(num):
+#         if num == 2:
+#             return True
+        
+#         if num < 2:
+#             return False
+        
+#         i = 2
+        
+#         while i < num:
+#             if num % i == 0:
+#                 return False
+            
+#             i += 1
+            
+#         return True
+    
+# def prime_factors(num):
+    
+#     primes = [factor for factor in range(2, num + 1) if num % factor == 0 and prime(factor)]
+    
+#     return primes
+
+# print(prime_factors(60))
