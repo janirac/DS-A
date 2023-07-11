@@ -306,17 +306,17 @@
 
 def summation_sequence(start, length):
     summations = [start]
-    count = 0
-    sum = 0
+    index = 0
     
     
     while len(summations) < length:
+        sum = 0
         
-        
-        for n in range(1, summations[count]):
-             sum += n
-        
-        count += 1
+        for n in range(1, summations[index] + 1):
+            sum += n
+            
+            
+        index += 1
         summations.append(sum)
         
         
