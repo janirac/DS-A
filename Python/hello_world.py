@@ -259,3 +259,64 @@
 #     return primes
 
 # print(prime_factors(60))
+
+# def find_gcf(num):
+#     i = num - 1
+#     while i > 0:
+#         if num % i == 0:
+#             return i
+#         i-= 1
+
+# def greatest_factor_array(arr):
+#     greatest_array = []
+    
+#     for num in arr:
+#         if num % 2 == 0:
+#             greatest_factor = find_gcf(num)
+#             greatest_array.append(greatest_factor)
+#         else: 
+#             greatest_array.append(num)
+            
+#     return greatest_array            
+        
+        
+# print(greatest_factor_array([16, 7, 9, 14]))
+
+# def perfect_square(num):
+#     for factor in range(1, num+1):
+#         if factor * factor == num:
+#             return True
+        
+#     return False
+
+
+# print(perfect_square(25))
+
+# def triple_sequence(start, length):
+#     array = [start]
+#     count = 0
+    
+#     while len(array) < length:
+#         array.append(array[count] * 3)
+#         count += 1
+        
+#     return array
+
+# print(triple_sequence(4, 5))
+
+def summation_sequence(start, length):
+    summations = [start]
+    count = 0
+    sum = 0
+    print(summations)
+    
+    
+    
+    while len(summations) < length:
+        for n in range(1, summations[count]):
+             sum += 
+        summations.append(n)
+             
+             
+             
+print(summation_sequence(3, 4))
