@@ -308,14 +308,19 @@ def summation_sequence(start, length):
     summations = [start]
     count = 0
     sum = 0
-    print(summations)
-    
     
     
     while len(summations) < length:
+        
+        
         for n in range(1, summations[count]):
-             sum += 
-        summations.append(n)
+             sum += n
+        
+        count += 1
+        summations.append(sum)
+        
+        
+    return summations
              
              
              
