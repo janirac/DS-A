@@ -304,24 +304,62 @@
 
 # print(triple_sequence(4, 5))
 
-def summation_sequence(start, length):
-    summations = [start]
-    index = 0
+# def summation_sequence(start, length):
+#     summations = [start]
+#     index = 0
     
     
-    while len(summations) < length:
-        sum = 0
+#     while len(summations) < length:
+#         sum = 0
         
-        for n in range(1, summations[index] + 1):
-            sum += n
+#         for n in range(1, summations[index] + 1):
+#             sum += n
             
             
-        index += 1
-        summations.append(sum)
+#         index += 1
+#         summations.append(sum)
         
         
-    return summations
+#     return summations
              
              
              
-print(summation_sequence(3, 4))
+# print(summation_sequence(3, 4))
+
+# def fibonacci(length):
+#     if length == 1:
+#         return [1] 
+#     if length == 2:
+#         return [1, 1] 
+    
+#     result = [1, 1]
+    
+#     index = 1
+    
+#     while len(result) < length:
+#         result.append(result[index] + result[index - 1])
+#         index += 1
+        
+#     return result
+    
+# print(fibonacci(8))
+
+# def climbStairs(n):
+#         if n <= 2:
+#             return n
+
+#         dw = [0] * (n + 1)
+#         print(dw)
+#         dw[1] = 1
+#         print(dw)
+#         dw[2] = 2
+#         print(dw)   
+        
+#         for i in range(3, n + 1):
+#             dw[i] = dw[i - 1] + dw[i - 2]  
+#             print(dw)   
+            
+            
+#         return dw[n]
+        
+# print(climbStairs(100))
